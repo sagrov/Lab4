@@ -1,0 +1,82 @@
+body {
+    background-color: #ECEBDE;
+}
+
+.status {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.success { background-color: #dff0d8; }
+.error { background-color: #f2dede; }
+#messages {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.buttons{
+    text-align: center;
+    display: block;
+}
+
+.text-input {
+    text-align: center;
+}
+
+.register-button {
+    transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: #A59D84;
+}
+
+.register-button:hover {
+    background-color: #8EB486;
+}
+
+.connect-button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    transition-duration: 0.4s;
+    background-color: #A59D84;
+}
+
+.connect-button:hover {
+    background-color: #8EB486;
+}
+
+.test {
+    text-align: center;
+}
+
+.login {
+    margin-bottom: 5px;
+}
+
+.send-button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    transition-duration: 0.4s;
+    background-color: #A59D84;
+}

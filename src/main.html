@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket Chat</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="statusMessages" class="status"></div>
+<div class="test">
+    <div class="login">
+    <form>
+        <label for="username">Username</label>
+        <input type="text" id="username">
+    </form>
+    </div>
+    <div class="password">
+        <form>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+    </form>
+    </div>
+</div>
+<div class = "buttons">
+<button class="register-button" onclick="register()">Register</button>
+<button  class="connect-button" onclick="connect()">Connect</button>
+</div>
+<div class="messages-div" id="messages"></div>
+<div class="text-input">
+    <input type="text" id="message" placeholder="Type your message..." disabled>
+    <button class="send-button" onclick="sendMessage()" disabled id="sendButton">Send</button>
+</div>
+
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
